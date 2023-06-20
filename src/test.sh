@@ -1,0 +1,3 @@
+python -u main.py --data_test RainHeavyTest  --ext img --scale 2  --data_range 1-200/1-100 --pre_train ../experiment/JORDER_E_Rain100L/model/model_best.pt --model JORDER_E --test_only --save_results --save JORDER_E_Rain100L_test
+python -u main.py --data_test RainHeavyTest  --ext img --scale 2  --data_range 1-1254/1-100 --pre_train ../experiment/JORDER_E_Rain100H/model/model_best.pt --model JORDER_E --test_only --save_results --save JORDER_E_Rain100H_test
+python -u main.py --data_test RainHeavyTest  --ext img --scale 2  --data_range 1-12600/1-1400 --pre_train ../experiment/JORDER_E_Rain1400/model/model_best.pt --model JORDER_E --test_only --save_results --save JORDER_E_Rain1400_test
