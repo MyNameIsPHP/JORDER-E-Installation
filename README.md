@@ -5,11 +5,12 @@ This is the installation, training and validating guide for the "Joint Rain Dete
 
 Run the script below to install (Same environment with RCDNet: https://github.com/MyNameIsPHP/RCDNet-Installation):
 ```
-conda create -n jorder_e python=3.6.0
+conda create -n jorder_e python=3.6.7
 conda activate jorder_e
-conda install -y pytorch=0.4.1 cudatoolkit=10.0 torchvision -c pytorch
+conda install -y pytorch=0.4.1 cudatoolkit=9.0 torchvision -c pytorch
 conda install h5py opencv
 pip install scikit-image==0.17.2 pytorch-msssim==0.2.1 scipy==1.1.0
+pip install ipython tdqm
 ```
 
 ## Dataset  
