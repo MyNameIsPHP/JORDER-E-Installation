@@ -7,6 +7,7 @@ import loss
 from option import args
 from trainer import Trainer
 
+torch.backends.cudnn.benchmark = True
 
 torch.manual_seed(args.seed)
 checkpoint = utility.checkpoint(args)
