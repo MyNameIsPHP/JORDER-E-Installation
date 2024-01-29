@@ -26,6 +26,7 @@ $ cd ./src/
 $ bash train.sh
 ```
 **Note that:  For custom datasets, the image must have `.png` suffix
+
 Since I don't want to change the orignal code so much, when you want to work on the Rain1400 dataset, you have to run `convert_png.py` and `make_copies.py` in the `rain1400/train` and `rain1400/test` directories.
 
 ## Testing
