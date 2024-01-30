@@ -16,7 +16,7 @@ pip install ipython tdqm
 ## Dataset  
 To train and evaluate the models, please download training and testing datasets (Rain100H, Rain100L, Rain1400) from 
 https://drive.google.com/file/d/1Q0hv7HQTT8iC5jHNb9lVrwI6yCNu1SI1/view?usp=sharing
-and place the unzipped folders into the 'for_syn/data' folder.
+and place the unzipped folders into the 'data' folder.
 
 ## Training
 ###  For Synthetic Dataset 
